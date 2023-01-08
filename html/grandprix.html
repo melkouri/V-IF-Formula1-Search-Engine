@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/driver.css" />
+    <title>GrandPrix</title>
+</head>
+
+<body>
+    <header>
+        <div class="brand">
+          <a href="index.html" class="logo" title="Retourner à l'accueil">
+            <img src="../assets/img/f1logo.svg" alt="" />
+            <h1>V’IF</h1>
+          </a>
+          <p class="h3">The Formula 1 Search Engine</p>
+        </div>
+    
+      </header>
+    <main class="container">
+        <section class="left-container">
+            <img id="image" alt="" class="image"/>
+            <div class="raceInfo">
+                <div class="categorie"><img src="../assets/track.png" alt="" class="icone"/>General Information</div><br>
+                <div id="firstHeld"></div>
+                <div id="lat"></div>
+                <div id="long"></div>
+                <div id="timesHeld"></div>
+                <div id="mostWinsConstructor"></div>
+                <div id="mostWinsDriver"></div>
+            </div>
+        </section>
+        <section class="right-container">
+            <div id="name" class="name"></div>
+            <div id="description" class="description"></div>
+            <div class='categorie'><img src='../assets/team.png' alt="" class='icone'/>Latest Editions</div>
+            <ul id="raceList"></ul>
+        </section>
+    </main>
+
+    <script src="../scripts/grandprix.js"></script>
+
+</body>
+
+</html>

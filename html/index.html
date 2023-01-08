@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" href="../styles/index.css" />
+    <title>Index</title>
+</head>
+
+<body>
+  <header>
+    <div class="brand">
+      <a href="index.html" class="logo" title="Retourner à l'accueil">
+        <img src="../assets/img/f1logo.svg" alt="" />
+        <h1>V’IF</h1>
+      </a>
+      <p class="h3">The Formula 1 Search Engine</p>
+    </div>
+
+  </header>
+  <main class="recherche">
+    <div id="search-container">
+      <label for="search">Search for a driver, a grand prix or a team.</label>
+      <div id="search-input-container">
+        <input list="listResult" name="results" id="requete" placeholder="Max Verstappen">
+      </div>
+
+      <div id="results">
+        <div id="Pilotes"></div>
+        <div id="Ecuries"></div>
+        <div id="grandprix"></div>
+        <div id="grandprixyear"></div>
+      </div>
+    </div>
+    
+
+    <div class="row center">
+      <div class="column">
+        <div id="toppilotes" class="home-cards">
+          <h3>Top Drivers</h3>
+        </div>
+      </div>
+      <div class="column">
+        <div id="topecuries" class="home-cards">
+          <h3>Top Teams</h3>
+        </div>
+      </div>
+      <div class="column">
+        <div id="topgrandsprix" class="home-cards">
+          <h3>Top Grands Prix</h3>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+
+<script src="../scripts/recherche.js"></script>
+<script src="../scripts/start.js"></script>
+
+</body>
+</html>

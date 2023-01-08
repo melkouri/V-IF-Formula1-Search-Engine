@@ -1,0 +1,35 @@
+
+.ranking {
+    margin-top: 30pt;
+}
+
+.medal {
+    width: 50pt;
+    height: 50pt;
+    margin-right: 15pt;
+}
+
+.rank {
+    display: flex;
+    align-items: center;
+}
+h2 {
+    margin-left: 20pt;
+}
+
+h1 {
+    text-align: center;
+}
+
+td {
+    padding-left: 20pt;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+#raceList{
+    height: 20rem;
+    overflow: scroll;
+}
